@@ -9,5 +9,10 @@ def map(array)
 end 
 
 def reduce(array, sv = nil)
+  if sv 
+    sum = sv 
+  else 
+    sum = array[0]
+  end 
   
 end 
